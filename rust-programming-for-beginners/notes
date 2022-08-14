@@ -1,0 +1,25 @@
+// init rust project folder hello
+% cargo init hello
+
+// run main.rs
+% cargo run
+
+// run a1.rs
+% cargo run --bin a1
+
+% cargo run -q --bin a1
+
+// create docs and open
+% cargo doc --open
+
+// rust documentation
+% rustup doc
+
+// check compiler errors
+% cargo check -q --bin a20
+
+// run test on file a22
+% cargo test --bin a22
+
+// update dependencies
+% cargo run --bin a26
